@@ -17,7 +17,7 @@ def class_imc (sexo,peso,altura) :
         elif valor_imc >= 31.1:
             return "Obesidade""
         else:
-            return "Erro de cálculo. Entre em contato com o administrador"
+            return "Erro de cálculo. Repita o processo"
 
     if sexo == 'f' :
         if valor_imc < 19.1:
